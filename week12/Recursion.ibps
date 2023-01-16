@@ -1,0 +1,17 @@
+//A farmer plants a farm but he is not sure how big the land is.
+
+//Iterative Solution
+loop until rem > 0
+    rem = look_ahead()
+    output "planting"
+end loop
+
+//Recursive Solution
+plant(look_ahead())
+sub plant(steps)
+    if steps > 0 then
+        output "planting"
+        plant(steps)
+end if
+
+
