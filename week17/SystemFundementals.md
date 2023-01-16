@@ -38,12 +38,11 @@ Input -> Process -> Output -> Feedback -> Input (...)
 - New system is developed as a result of a problem, or replace an older system
 
 
-
 >What is Change Management?
 - Change management is the movement towards a *future desired state.*
 - In the area of technology, change management refers to a set of standardized processes for keeping all IT (Information Technology) systems in good working order.
 - Change management may occur in *hardware, software, data, all documentation and procedures associated with running, support and maintenance of live systems.*
-
+<br></br>
 
 >What is the need for change management?
 
