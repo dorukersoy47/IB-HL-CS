@@ -1,9 +1,13 @@
 # System Fundementals
 ## Systems in Organization
 >Planning and System Installation
+
 >User Focus
+
 >System Backup
+
 >Software Development
+
 <br></br>
 
 ### Defining Terms
@@ -70,3 +74,33 @@ Change management...
 <br></br>
 
 ### Context the System is Planned
+***Computer System Analysts*** create new computer systems by studying an organization's current computer systems and procedures and making recommendations to help the organization operate more efficiently and effectively.
+
+- They bring business and information technology (IT) together by understanding the needs and limitations of both.
+- They run the feasibility study for the new system implementation.
+<br></br>
+
+***Feasibility*** is the measure of how suitable the new system will be to the company.
+
+>Types of Feasibility
+
+1. *Technical feasibility* is asking whether the existing technology is sufficient to implement the proposed system
+2. *Economic feasibility* is checking the cost effectiveness of the proposed system
+3. *Legal feasibility* is checking against conflicts between the proposed system and any regulations/laws
+4. *Operational feasibility* is looking for existing organizational practices and procedures and understanding whether they are sufficient to support the maintenance and operations of the new system.
+5. *Schedule feasibility* is about how long will the new system implementation take
+
+<br></br>
+
+***System Manager*** should...
+1. ...appreciate the extent and limitations of the new system
+
+2. ...consider organizational issues and environments
+    - user roles, underlying technologies, etc.
+
+3. ...explain why the change is taking place, the benefits of successful change 
+    - what is in it for the company
+
+4. ...explain/determine the details of the change 
+    - when? where? who is involved? how much will it cost? Etc. → budget, time, scope
+
