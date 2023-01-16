@@ -109,5 +109,3 @@ Change management...
 ***Legacy systems*** are outdated computer systems, programming languages or application software that are used instead of available upgraded versions.
 
 - A legacy system is often still in use because its data cannot be changed to newer or standard formats, or its application programs cannot be upgraded.
-
-!(/assets/images/LegacySystems.png)
