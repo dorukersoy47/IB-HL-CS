@@ -45,18 +45,18 @@ Input -> Process -> Output -> Feedback -> Input (...)
 - New system is developed as a result of a problem, or replace an older system
 <br></br>
 
->What is Change Management?
+##### What is Change Management?
 - Change management is the movement towards a *future desired state.*
 - In the area of technology, change management refers to a set of standardized processes for keeping all IT (Information Technology) systems in good working order.
 - Change management may occur in *hardware, software, data, all documentation and procedures associated with running, support and maintenance of live systems.*
 <br></br>
 
->What is the need for change management?
+##### What is the need for change management?
 
 Without effective change management, there may be serious issues in systems. The new system may stop functioning, may not function properly or may contain problems that become difficult and costly to fix.
 <br></br>
 
-Change management...
+***Change management...***
 1. ...accomplishes change in the most efficient manner while minimizing the impact on an organization
 2. ...provides training and support for staff
 3. ...ensures that proper planning, designing, and testing stages are proposed
@@ -82,7 +82,7 @@ Change management...
 
 ***Feasibility*** is the measure of how suitable the new system will be to the company.
 
->Types of Feasibility
+Types of Feasibility:
 
 1. *Technical feasibility* is asking whether the existing technology is sufficient to implement the proposed system
 2. *Economic feasibility* is checking the cost effectiveness of the proposed system
@@ -109,5 +109,42 @@ Change management...
 ***Legacy systems*** are outdated computer systems, programming languages or application software that are used instead of available upgraded versions.
 
 - A legacy system is often still in use because its data cannot be changed to newer or standard formats, or its application programs cannot be upgraded.
+<br></br>
+
+#### Things to Consider in Legacy Systems
+##### Compatibility Issues
+
+Compatibility is the capacity for two systems to work together without having to be altered to do so.
+
+***Questions to Ask***
+
+- Will legacy software run on new hardware?
+- Is the format of the legacy system data compatible with new software?
+- Can the legacy system be used with new technologies?
+
+<br></br>
+
+***Examples of Compatibilty Issues:***
+- The cost of maintaining an older system can be higher than maintaining a more updated version. The staff might not be familiar with such an outdated version of the system.
+- Tech support may no longer be available.
+- The data in the current system might not be compatible with newer systems and conversion may not be possible.
+- Legacy systems are usually more vulnerable to security threats due to lack of security patches.
+<br></br>
+
+##### Lack of Security
+
+Security is the defense of digital information and IT assets against internal and external, malicious and accidental threats.
+
+***Questions to Ask***
+- How much the legacy system is open to security attacks?
+
+***Examples of Security Issues:***
+- Legacy systems may have vulnerabilities in older operating systems or applications due to lack of security patches being available or applied. 
+
+- There can also be production configurations that cause security problems. These issues can put the legacy system at risk of being compromised by attackers or knowledgeable insiders.
+
+> ***RWE:*** WannaCry ransomware attack
+
+<br></br>
 
 <img src="https://www.deepcoredata.com/wp-content/uploads/2017/08/alliancetek.jpg" alt="Legacy vs. New Systems" style="align-center">
