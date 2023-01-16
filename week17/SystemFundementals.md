@@ -102,7 +102,8 @@ Types of Feasibility:
     - what is in it for the company
 
 4. ...explain/determine the details of the change 
-    - when? where? who is involved? how much will it cost? Etc. → budget, time, scope
+    - when? where? who is involved? how much will it cost? Etc. → budget, time, scope,
+<br></br>
 
 ### Compatibility Issues Resulting from Situations Including Legacy Systems or Business Mergers
 
@@ -111,12 +112,13 @@ Types of Feasibility:
 - A legacy system is often still in use because its data cannot be changed to newer or standard formats, or its application programs cannot be upgraded.
 <br></br>
 
-#### Things to Consider in Legacy Systems
-##### Compatibility Issues
+***Things to Consider in Legacy Systems***
+***Compatibility Issues***
 
 Compatibility is the capacity for two systems to work together without having to be altered to do so.
+<br></br>
 
-***Questions to Ask***
+##### Questions to Ask
 
 - Will legacy software run on new hardware?
 - Is the format of the legacy system data compatible with new software?
@@ -124,21 +126,21 @@ Compatibility is the capacity for two systems to work together without having to
 
 <br></br>
 
-***Examples of Compatibilty Issues:***
+#####Examples of Compatibilty Issues:
 - The cost of maintaining an older system can be higher than maintaining a more updated version. The staff might not be familiar with such an outdated version of the system.
 - Tech support may no longer be available.
 - The data in the current system might not be compatible with newer systems and conversion may not be possible.
 - Legacy systems are usually more vulnerable to security threats due to lack of security patches.
 <br></br>
 
-##### Lack of Security
+***Lack of Security***
 
 Security is the defense of digital information and IT assets against internal and external, malicious and accidental threats.
 
-***Questions to Ask***
+##### Questions to Ask
 - How much the legacy system is open to security attacks?
 
-***Examples of Security Issues:***
+##### Examples of Security Issues:
 - Legacy systems may have vulnerabilities in older operating systems or applications due to lack of security patches being available or applied. 
 
 - There can also be production configurations that cause security problems. These issues can put the legacy system at risk of being compromised by attackers or knowledgeable insiders.
@@ -148,3 +150,27 @@ Security is the defense of digital information and IT assets against internal an
 <br></br>
 
 <img src="https://www.deepcoredata.com/wp-content/uploads/2017/08/alliancetek.jpg" alt="Legacy vs. New Systems" style="align-center">
+<br></br>
+
+***Virtual Machines and Emilators***
+- One solution to using legacy systems is using virtual machine, which creates a virtual ‘computer’ running inside a window, like a regular application program. This virtual computer is independent of the host computer and can be paused, shut down, restarted, and modified at will. It runs its own operating system and software, independent of the host computer. 
+
+- If the legacy system requires hardware which is significantly different from the host computer (for example, it requires a different processor or mainframe hardware), a virtual machine may not be enough, and a program called emulator may be needed.  An emulator is a software recreation of an entire system’s hardware including its processor and associated hardware. 
+<br></br>
+
+***Business Mergers***
+Business mergers are transactions in which the ownership of companies, other business organizations or their operating units are transferred or combined.
+<br></br>
+
+- When two companies merge, there will be things to consider about merging  the computer systems as well. The systems used by the companies may be very different. This can result in time and money being spent converting one system to another. 
+- It may be that two systems will continue to run independently which may cause problems in terms of data redundancy. If systems are to be replaced then this will have a cost in terms of purchasing new hardware and software and retraining staff to use the new system.
+<br></br>
+
+##### Things to Consider in the IT System in Business Mergers
+- Is the data from each company compatible?
+- How is the data from each system going to be integrated?
+- Transformation of data from one system to another.
+- Companies may not be using same application software.
+- Businesses may not have same change management policies.
+- Integration of newer systems may be a complicated process as the two systems may have completely different technologies
+- Programming language differences
