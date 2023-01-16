@@ -1,0 +1,17 @@
+sub add(root, n)
+    if n < root.data then
+        if root.left = null then
+            root.left = new Node(n)
+        else
+            Add(root.left, n)
+        end if
+    end if
+
+    if n > root.data then
+        if root.right = null then
+            root.right = new Node(n)
+        else 
+            Add(root.right, n)
+        end if 
+    end if
+end sub
