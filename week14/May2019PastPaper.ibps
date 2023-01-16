@@ -1,0 +1,8 @@
+sub stackSearch(STACK, NAME):
+    loop while STACK.hasnext()
+    index++
+        if STACK.pop = NAME then 
+            return index;
+        end if
+    end loop
+end sub
