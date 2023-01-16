@@ -1,0 +1,18 @@
+sub swap(A,B)
+    TEMP = A
+    A = B
+    B = TEMP
+end sub
+
+//selection in descending order
+sub bubbleSort
+    n = arr.length
+    
+    loop for i from 0 to n-2
+        loop for j from 0 to n-2-i
+            if arr[j] > arr[j+1] then
+                swap(arr[j],arr[j+1])
+            end if
+        end loop
+    end loop
+end sub
