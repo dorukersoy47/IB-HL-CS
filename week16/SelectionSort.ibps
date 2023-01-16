@@ -1,0 +1,20 @@
+sub swap(A,B)
+    TEMP = A
+    A = B
+    B = TEMP
+end sub
+
+//selection in ascending order
+sub selectionSort 
+    n = arr.length
+    
+    loop for i from 0 to n-2
+        min = 0
+        loop for j from 0 to n-1
+            if arr[j] < arr[min] then
+                min = j
+            end if
+        end loop
+        swap(arr[j], arr[i])
+    end loop
+end sub
