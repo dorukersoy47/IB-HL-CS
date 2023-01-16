@@ -1,0 +1,38 @@
+/* The temperature of a lake for one day is recorded every hour and data is stored in a 
+		one-dimensional array named TEMPDAY.
+		
+		[12.3][12.4][13.3][12.1].....[12.3]
+
+		(a) State the temperature of the lake at noon. [1 mark]
+		(b) Construct an algorithm that will calculate and output the average temperature. [4 marks]
+		(c) Construct an algorithm to find and output the minimum and maximum temperatures for the day.[7 marks]
+		(d) (i) Describe how a two-dimensional array could be used to hold temperature measured every hour, every day for one week.[2 marks]
+		(ii) Outline how the temperature on Thursday at 5pm can be accessed.[1 mark]
+*/
+
+a)  TEMPDAY[11]
+
+b)  SUM = 0
+    loop for i from 0 to TEMPDAY.length - 1
+        SUM = SUM + TEMDAY[i]
+    end loop
+
+    AVERAGE = SUM / 24
+    ouput AVERAGE
+
+c)  MAX = TEMPDAY[0]
+    MIN = TEMPDAY[0]
+    loop for i from 0 to TEMPDAY.length - 1
+        if MAX < TEMPDAY[i] then
+            MAX = TEMPDAY[i]
+        end if
+        if MIN > TEMPDAY[i] then
+            MIN = TEMPDAY[i]
+        end if                    
+    end loop
+
+    output MAX
+    output MIN
+
+d.i) create TEMPWEEK[7][24], add temps in a line and days in a row
+d.ii) TEMPWEEK[3][16]
