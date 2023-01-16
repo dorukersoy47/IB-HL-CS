@@ -110,4 +110,4 @@ Change management...
 
 - A legacy system is often still in use because its data cannot be changed to newer or standard formats, or its application programs cannot be upgraded.
 
-![Legacy Systems vs. New Systems] (https://www.deepcoredata.com/wp-content/uploads/2017/08/alliancetek.jpg "Legacy Systems vs. New Systems")
+<img src="https://www.deepcoredata.com/wp-content/uploads/2017/08/alliancetek.jpg" alt="Legacy vs. New Systems" style="align-center">
