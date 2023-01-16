@@ -1,0 +1,7 @@
+sub factorial (NUM):
+    if NUM = 1 then
+        return  1
+    else 
+        return NUM = NUM * factorial(NUM - 1)
+    end if
+end sub
