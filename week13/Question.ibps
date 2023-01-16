@@ -1,0 +1,53 @@
+PASSENGERS.resetNext()
+
+loop for i from 0 to 29:
+    loop for j from 0 to 6:
+        2D_ARRAY[i][j] = PASSENGERS.getNext()
+    end loop 
+end loop
+
+//get the index of the column
+sub TOTAL(2D_ARRAY, INDEX):
+    loop for i from 0 to 29:
+        sum += 2D_ARRAY[i][INDEX]
+    end loop
+    return TOTALNUM
+end sub
+
+
+
+MAX = TOTAL(2D_ARRAY, 0) / 30
+MAXINDEX = 0
+loop for i from 1 to 6:
+    AVERAGE = TOTAL(2D_ARRAY, i)
+    if MAX < AVERAGE then:
+        MAX = AVERAGE
+        MAXINDEX = i
+    end if
+end loop
+
+output  convert(i)
+
+
+
+sub salesCalculate(2D_ARRAY, C1, C2, R1, R2):
+    BETWEEN = false
+    loop for i from R1 to R2:
+        loop for j from 0 to 6:
+            if (j == C1) then
+                BETWEEN = true 
+            end if 
+            if (i == R2 && j == C2) then
+                BETWEEN = false
+            end if
+ 
+            if (j == 5 && j == 6 && BETWEEN == true) then:
+                TOTAL += 2D_ARRAY(i, j) * FEES[1]
+            else if (BETWEEN == true)
+                TOTAL += 2D_ARRAY(i, j) * FEES[0]
+            end if
+        end loop 
+    end loop
+    return TOTAL
+end sub
+
